@@ -1,1 +1,0 @@
-print("Mark2 is multihanded")
