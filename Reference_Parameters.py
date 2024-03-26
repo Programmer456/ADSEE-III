@@ -30,45 +30,5 @@ Vh_V = 1 # T- Tail vh/v
 
 
 
-'FUSELAGE GEOMETRY'
-l_fus =
-l_cabin =
-l_seating_area =
-seat_pitch =
-d_fus = 3.3 # [m]
-
-'MASSES'
-MTOM =
-OEM =
-MZFM =
-MFM =
-MPM =
-
-'PROPULSION GROUP'
-d_fan =
-d_nacelle =
-x_cg_engine =
-
-'WING GEOMETRY'
-cw_r =
-cw_t =
-bw =
-Aw =
-Sw =
-x_w_r =
-sweep_w =
-taper_rat_w =
-
-'HSTAB GEOMETRY'
-ch_r =
-ch_t =
-bh =
-Ah =
-Sh =
-sweep_h =
-taper_rat_h =
-
-'FLIGHT PERFORMANCE'
-
 
 

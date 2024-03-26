@@ -10,11 +10,11 @@ class Reference_Params:
     foot = 0.3048   # [m]
 
     'FUSELAGE GEOMETRY'
-    l_fus = 32.5             # [m]
-    l_cabin = 21.19          # [m]
-    l_seating_area = 18.8    # [m]
-    seat_pitch = 32*inch     # [m]
-    d_fus = 3.3              # [m]
+    l_fus = 32.5             # [m], FROM:
+    l_cabin = 21.19          # [m], FROM:
+    l_seating_area = 18.8    # [m], FROM:
+    seat_pitch = 32*inch     # [m], FROM:
+    d_fus = 3.3              # [m], FROM:
 
     'MASSES'
     MTOM = 43090    # [Kg], FROM: http://www.fokker-aircraft.info/f100general.htm
@@ -34,16 +34,16 @@ class Reference_Params:
     M_prop = 9.12/100 * MTOM        # [Kg]
 
     'PROPULSION GROUP'
-    d_fan = 44*inch         # [m]
+    d_fan = 44*inch         # [m], FROM:
     d_nacelle =
     x_cg_engine = 23607/1000 # [m], wrt nose, FROM: Towards a Stall Model for the Fokker 100
 
     'WING GEOMETRY'
-    cw_r = 5.28 # [m]
-    cw_t = 1.26 # [m]
-    bw = 28.08 # [m]
-    Aw = 8.4 # [-]
-    Sw = 93.5               # [m^2]
+    cw_r = 5.28                 # [m], FROM:
+    cw_t = 1.26                 # [m], FROM:
+    bw = 28.08                  # [m], FROM:
+    Aw = 8.4                    # [-], FROM:
+    Sw = 93.5                   # [m^2], FROM:
     x_w_r =
     sweep_le_w =
     sweep_quarter_chord_w = 17.45*np.pi/180 # [rad]
@@ -57,9 +57,9 @@ class Reference_Params:
     'HSTAB GEOMETRY'
     ch_r =
     ch_t =
-    bh = 10.04 # [m]
+    bh = 10.04 # [m], FROM:
     Ah =
-    Sh = 17.76          # [m^2]
+    Sh = 17.76          # [m^2], FROM:
     sweep_le_h =
     taper_rat_h =
     Vh_V = 1
